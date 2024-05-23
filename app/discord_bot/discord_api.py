@@ -1,7 +1,7 @@
 from dotenv import load_dotenv
 import discord
 import os
-from app.chatgpt_ai.openai import chatgpt_response
+from ..chatgpt_ai.openai import chatgpt_response
 
 load_dotenv()
 
